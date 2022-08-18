@@ -1,0 +1,137 @@
+/*HEADFER*/
+
+*{
+    color: black;
+}
+body{
+    
+}
+a , i {
+    text-decoration: none;
+    transition: .5s ;
+}
+.secondary-color{
+    color: rgb(24, 23, 23);
+}
+.center-image{
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.btn{
+    text-decoration: none;
+    background-color: rgb(34, 108, 173);
+    color: #fff;
+    border-radius: 0;
+    padding: 7px 18px;
+
+}
+
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#header p{
+    margin-bottom: 0;
+
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+   width:  40px;
+   margin-left: 15px; 
+}
+
+#navbar{
+    padding: 10px;
+    margin: 10px auto;
+}
+#navbar a{
+    width: 80px;
+    color: #444;
+}
+#navbar a:hover{
+   
+    color: #e20909;
+}
+/*MAIN-IMAGE*/
+.main-image{
+    height: 400px;
+    background-image: url(/img/spider.png);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: rgba(221, 222, 231, 0.274);
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom:25px ;
+}
+
+/*GALLERY*/
+
+#img2{
+    background-image: url(/img/2.png);
+}
+#img3{
+    background-image: url(/img/3.png);
+}
+#img4{
+    background-image: url(/img/4.png);
+}
+#img5{
+    background-image: url(/img/5.png);
+}
+#img6{
+    background-image: url(/img/6.png);
+}
+#img7{
+    background-image: url(/img/7.png);
+}
+#gallery-container h1{
+    text-align: center;
+}
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12{
+    margin-bottom: 50px;
+
+}
+.small-image-container{
+    height: 250px;
+    margin-bottom: 20px;
+}
+/*FOOTER*/
+footer{
+    border-top:1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+footer i {
+    font-size: 20px;
+}
+#social-icons-container{
+    padding: 25px;
+}
+#social-icons-container div{
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+a:hover i{
+    color: #e20909;
+}
